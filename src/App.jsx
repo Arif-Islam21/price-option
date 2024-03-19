@@ -1,5 +1,6 @@
 import "./App.css";
 import Navbar from "./components/Navbar/Navbar";
+import PriceOptions from "./components/PriceOption/PriceOptions";
 // import DaisyNav from "./components/daisyNav/DaisyNav";
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
       <Navbar></Navbar>
       {/* <DaisyNav></DaisyNav> */}
       <h1 className="bg-rose-600 text-3xl">Vite + React</h1>
+      <PriceOptions></PriceOptions>
     </>
   );
 }
